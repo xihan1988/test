@@ -1,3 +1,3 @@
 #!/bin/bash
 
-go build -o bin/app .
+CGO_ENABLED=0 go build -o bin/app -a -ldflags '-extldflags "-static"' .
