@@ -3,4 +3,4 @@ services:
      image: testapp
      ports: 
         - 3000:3000
-     working_dir: /app
+     working_dir: /testapp
