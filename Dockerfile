@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM ubuntu:18.04
 
 WORKDIR /testapp
 ADD /bin/app ./
