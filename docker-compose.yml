@@ -1,1 +1,6 @@
-# TODO
+services:
+  app:
+     image: testapp
+     ports: 
+        - 3000:3000
+     working_dir: /testapp
